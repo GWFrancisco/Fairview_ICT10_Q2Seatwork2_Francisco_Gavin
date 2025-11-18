@@ -8,7 +8,7 @@ def general_weighted_average(e):
     english = float(document.getElementById('english').value)
     tle = float(document.getElementById('tle').value)
     ict = float(document.getElementById('ict').value)
-    social studies = float(document.getElementById('social studes').value)
+    socialstudies = float(document.getElementById('socialstudies').value)
 
     display(f'Name: {first_name} {last_name}', target="student_info")
     display(summary, target='summary')
@@ -27,8 +27,9 @@ def general_weighted_average(e):
 {subjects{2}}: {english:0f}
 {subjects{3}}: {tle:0f}
 {subjects{4}}: {ict:0f}
-{subjects{5}}: {social studeis: 0f}
+{subjects{5}}: {socialstudies: 0f}
     """
     display(f'Name: {first_name} {last_name}', target="student_information")
     display(summary,target='summary')
+
     display(f'Your general weighted average is {gwa:2f}', target='output',)
